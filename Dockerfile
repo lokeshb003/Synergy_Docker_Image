@@ -8,7 +8,7 @@ RUN apt update && apt install git nodejs npm -y
 
 WORKDIR /root/mk
 
-RUN git clone https://github.com/Melospiza-rit/synergy_ias
+RUN git clone https://github.com/lokeshb003/synergy_ias
 
 WORKDIR /root/mk/synergy_ias
 
